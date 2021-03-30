@@ -33,7 +33,7 @@ function checkpng (urlx, n) {
                 })
             dl.start();
     }
-};
+}
 
 function checkjpg (urlx, n) {
     const exists = urlExist(urlx);
@@ -47,7 +47,7 @@ function checkjpg (urlx, n) {
                 })
             dl.start();
     }
-};
+}
 
 function checkjpeg (urlx, n) {
     const exists = urlExist(urlx);
@@ -61,4 +61,4 @@ function checkjpeg (urlx, n) {
                 })
             dl.start();
     }
-};
+}
